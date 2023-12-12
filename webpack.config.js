@@ -14,7 +14,7 @@ module.exports = {
   devServer: {
     static: './dist',
     headers: {
-      'Content-Security-Policy': cspSafeSelf,
+      'Content-Security-Policy': cspSafe,
     },
   },
 };
